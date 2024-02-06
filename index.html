@@ -4,32 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua's personal webpage</title>
-    <style>
-        body{
-            text-align: center;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-        button{
-            position: fixed;
-            top: 2rem;
-            right: 5rem;
-        }
-        p{
-            margin-left: 5rem;
-            margin-right: 5rem;
-        }
-        img{
-            width: 25%;
-            height: 25%;
-        }
-        a:visited{
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body id="fixThis">
-    <button id="fixB" onclick="fix()">Fix</button>
-    <h1>Front-end Academy</h1>
+    <header>
+        <button id="fixB" onclick="fix()">Fix</button>
+        <h1>Front-end Academy</h1>
+    </header>
+    
     <h2>Estudiante: Joshua</h2>
     <p>
         Hola, mi nombre es Mario Joshua Ramos Chávez Hita, me suelen llamar Joshua, a veces los profesores usan Hita. <br>
@@ -41,7 +23,7 @@
         Si, ese soy yo.
         ¿Una página web preferida?, no creo tener algo así, de verdad no me apasiona esto así que no se si sea común tener una,
         en todo caso, puedo señalar la que utilizo para cuando necesito pensar en nombres
-        <a target="_blank" href="https://www.palabrasaleatorias.com/">{aquí}</a>. <br>
+        <a target="_blank" id="favPage" href="https://www.palabrasaleatorias.com/">{aquí}</a>. <br>
         Eso sería todo de mi parte, espero que esta información sea enriquecedora, nos vemos en la siguiente reunión.
     </p>
     <script>
